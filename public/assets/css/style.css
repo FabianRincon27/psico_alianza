@@ -1,0 +1,127 @@
+.breadcrumb-item+.breadcrumb-item::before {
+    content: '/' !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.table-responsive::-webkit-scrollbar {
+  height: 10px !important;
+  background-color: #f5f5f5 !important; 
+}
+  
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: #888 !important;
+  border-radius: 4px !important;
+}
+
+.form-select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+  
+.table-responsive::-webkit-scrollbar-thumb:hover {
+  background-color: #555 !important;
+}
+
+body {
+  background-color: #fff !important;
+}
+
+.no-scroll {
+  overflow:hidden !important;
+}
+
+.btn-login {
+  background-color: #0e36ea !important;
+  border-color: #0e36ea !important;
+  color: #fff !important;
+}
+
+.btn-login:hover{
+  box-shadow: inset 3px 4px 4px 1px rgba(0, 113, 188, 0.45) !important;
+}
+
+body[data-topbar=dark] .header-item {
+  color: #444 !important;
+}
+
+body[data-topbar=dark] .noti-icon i {
+  color: #444 !important;
+}
+
+body[data-topbar=dark] #page-topbar {
+  background-color: #f8f8fb !important;
+}
+
+.round-button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.round-button:hover {
+  background-color: #f8f8fb;
+  color: #0e36ea;
+}
+
+.custom-separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0; /* Ajusta el margen según tu diseño */
+}
+
+.left-line, .right-line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.left-line {
+  margin-right: 10px; /* Espacio entre las líneas */
+}
+
+.right-line {
+  margin-left: 10px; /* Espacio entre las líneas */
+}
+
+.dt-buttons {
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
+}
+
+.btn-group>.btn:not(:first-child) {
+  margin-left: 4px;
+}
+
+.d-grid {
+  display: grid !important;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 1px !important;
+}
+
+/* Cambiar el color de fondo de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1 !important; /* Gris claro */
+}
+
+/* Cambiar el color del "pulgar" de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background-color: #888 !important; /* Gris oscuro */
+}
