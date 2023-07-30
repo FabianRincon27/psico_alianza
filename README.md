@@ -17,6 +17,7 @@ Según el Figma se tenían dos tablas una para la información general del emple
     - Cargos
     - Áreas
     - Roles
+  <br>
   <b>Esto con el fin de que sea autoadministrable en el momento que se requiera nueva información para el sistema, estos datos se almacenan en sus respectivas tablas y tienen su respectiva validación de que no se repitan cargos,areas o roles, esto con el fin de evitar duplicidad en los datos</b>
 - Vista de empleados, en esta vista, se tendrá el manejo para el registro y actualización de empleados y está interfaz, contiene lo siguiente
   - <b>Botón Nuevo Empleado:</b> Este botón desplegara un modal en el cual se podrá registrar un nuevo empleado, con sus respectivas validaciones, entre estas validaciones están:
